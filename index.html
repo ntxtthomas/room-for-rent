@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+        <link href="styles.css" rel="stylesheet"/>
+        <meta name="theme-color" content="#4f7356"/>
+        <title>Room For Rent in Denton, TX</title>
+        <meta content="Large private unfurnished bedroom upstairs with a dedicated bathroom. Ceiling fan, high ceilings, modest walk in closet, plenty of space and comfort.
+
+        Incl..." name="description"/>
+
+        <meta content="#f2545b" name="msapplication-TileColor"/>
+        <meta content="#f2545b" name="theme-color"/>
+
+    </head>
+
+    <body class="font-sans antialiased">
+        <div class="flex min-h-dvh! min-h-screen flex-col bg-gray-50">
+            <a class="btn btn-primary fixed top-0 left-0 z-60 mt-3 ml-3 -translate-y-128 focus:translate-y-0" href="#main">
+                Skip to content
+            </a>
+            <header class="site-header" id="site-header">
+                <div class="header-inner">
+                    <a class="brand" href="#">Room for Rent 
+                        <span class="brand-place">Denton, TX</span>
+                    </a>
+                    <span class="rent-badge">$750<small>/mo</small></span>
+                </div>
+            </header>
+            <main class="relative grow focus:outline-hidden" id="main" tabindex="-1">
+                <div class="mx-auto max-w-4xl listing-photos" id="photos">
+                    <div class="relative bg-gray-100 border-b-4 border-gray-200">
+                        <div class="relative">
+                            <div class="flex snap-x snap-mandatory scrollbar-none overflow-x-auto">
+                                <button class="block min-h-64 w-full shrink-0 snap-center" command="show-modal" commandfor="room-photos" data-photo="1" type="button">
+                                    <img alt="Front of the house" class="block h-full max-h-128 min-h-64 w-full object-cover" loading="eager" src="images/front_1.webp"/>
+                                </button>
+                                <button class="block min-h-64 w-full shrink-0 snap-center" command="show-modal" commandfor="room-photos" data-photo="2" type="button">
+                                    <img alt="Front of the house" class="block h-full max-h-128 min-h-64 w-full object-cover" loading="lazy" src="images/front_2.webp"/>
+                                </button>
+                                <button class="block min-h-64 w-full shrink-0 snap-center" command="show-modal" commandfor="room-photos" data-photo="3" type="button">
+                                    <img alt="Bedroom" class="block h-full max-h-128 min-h-64 w-full object-cover" loading="lazy" src="images/bed_1.webp"/>
+                                </button>
+                                <button class="block min-h-64 w-full shrink-0 snap-center" command="show-modal" commandfor="room-photos" data-photo="5" type="button">
+                                    <img alt="Walk-in closet" class="block h-full max-h-128 min-h-64 w-full object-cover" loading="lazy" src="images/closet_1.webp"/>
+                                </button>
+                                <button class="block min-h-64 w-full shrink-0 snap-center" command="show-modal" commandfor="room-photos" data-photo="9" type="button">
+                                    <img alt="Common area" class="block h-full max-h-128 min-h-64 w-full object-cover" loading="lazy" src="images/common_1.webp"/>
+                                </button>
+                                <button class="block min-h-64 w-full shrink-0 snap-center" command="show-modal" commandfor="room-photos" data-photo="7" type="button">
+                                    <img alt="Kitchen" class="block h-full max-h-128 min-h-64 w-full object-cover" loading="lazy" src="images/kitchen_1.webp"/>
+                                </button>
+                                <button class="block min-h-64 w-full shrink-0 snap-center" command="show-modal" commandfor="room-photos" data-photo="8" type="button">
+                                    <img alt="Kitchen" class="block h-full max-h-128 min-h-64 w-full object-cover" loading="lazy" src="images/kitchen_2.webp"/>
+                                </button>
+                                <button class="block min-h-64 w-full shrink-0 snap-center" command="show-modal" commandfor="room-photos" data-photo="10" type="button">
+                                    <img alt="Backyard" class="block h-full max-h-128 min-h-64 w-full object-cover" loading="lazy" src="images/backyard.webp"/>
+                                </button>
+                            </div>
+
+                            <button aria-label="View all photos" class="photo-next" command="show-modal" commandfor="room-photos" type="button">
+                                <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                            <dialog aria-label="Room photos" class="fixed m-auto w-full bg-transparent p-0 backdrop:bg-white" id="room-photos">
+                                <div class="mx-auto max-w-2xl">
+                                    <div class="mb-4 flex flex-col gap-4">
+                                        <img alt="Front of the house" class="w-full align-top" loading="lazy" src="images/front_1.webp"/>
+                                        <img alt="Front of the house" class="w-full align-top" loading="lazy" src="images/front_2.webp"/>
+                                        <img alt="Bedroom" class="w-full align-top" loading="lazy" src="images/bed_1.webp"/>
+                                        <img alt="Walk-in closet" class="w-full align-top" loading="lazy" src="images/closet_1.webp"/>
+                                        <img alt="Common area" class="w-full align-top" loading="lazy" src="images/common_1.webp"/>
+                                        <img alt="Kitchen" class="w-full align-top" loading="lazy" src="images/kitchen_1.webp"/>
+                                        <img alt="Kitchen" class="w-full align-top" loading="lazy" src="images/kitchen_2.webp"/>
+                                        <img alt="Backyard" class="w-full align-top" loading="lazy" src="images/backyard.webp"/>
+                                    </div>
+                                    <div class="sticky bottom-0 mx-4 p-1 pb-4">
+                                        <form method="dialog">
+                                            <button autofocus="" class="btn btn-primary btn-block">Close Photos</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </dialog>
+                        </div>
+                    </div>
+                    <div class="container listing-details" id="details">
+                        <div class="mx-auto max-w-2xl">
+
+                            <div class="mb-8 grid grid-cols-1 justify-between md:grid-cols-2" id="listing-summary">
+                                <hgroup class="mb-8 md:mb-0">
+                                    <h1>
+                                        <div>Chapel Drive</div>
+                                        <div class="mb-3 text-xl">
+                                            Denton, TX 76205
+                                        </div>
+                                    </h1>
+                                    <div class="text-gray-700">Private Room Plus Full Bathroom</div>
+                                </hgroup>
+                                <div class="flex text-center text-gray-700 md:flex-row-reverse">
+                                    <div class="flex w-1/3 flex-col items-center justify-center">
+                                        <svg aria-hidden="true" class="h-8 mb-2 text-pink" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M19.473 4.5H21.5l2 12H.5l2-12h2.278M23.5 16.5V21a1.5 1.5 0 0 1-1.5 1.5H2A1.5 1.5 0 0 1 .5 21v-4.5M1.83 8.5h20.34"></path>
+                                                <path d="M10.552 6.01a.5.5 0 0 1-.5.49H5.074a.5.5 0 0 1-.5-.569l.278-2a.5.5 0 0 1 .5-.431h4.742a.5.5 0 0 1 .5.51zM13.7 6.01a.5.5 0 0 0 .5.49h4.977a.5.5 0 0 0 .5-.569l-.278-2A.5.5 0 0 0 18.9 3.5h-4.743a.5.5 0 0 0-.5.51z"></path>
+                                                <path d="M2.5 4.5V2A1.5 1.5 0 0 1 4 .5h16A1.5 1.5 0 0 1 21.5 2v2.5M3.5 22.5v1M20.5 22.5v1M10.6 4.61h3.05"></path>
+                                            </g>
+                                        </svg> 
+                                        <span class="text-sm">1 bedroom</span>
+                                    </div>
+                                    <div class="flex w-1/3 flex-col items-center justify-center">
+                                        <svg aria-hidden="true" class="h-8 mb-2 text-pink" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M6.768 2.732a2.5 2.5 0 1 1-3.536 3.536 2.5 2.5 0 0 1 3.536-3.536M15.5 13h7.479a.5.5 0 0 1 .506.522A9 9 0 0 1 14.5 22h-5a9 9 0 0 1-8.985-8.478.5.5 0 0 1 .506-.522H6"></path>
+                                                <path d="M3.5 13v-2.5a1.5 1.5 0 0 1 2.332-1.248L8.609 11.1c.518.341 1.193.33 1.7-.027l1.114-.8a1.5 1.5 0 1 1 1.744 2.442l-1.115.8a4.528 4.528 0 0 1-5.111.082L6 13"></path>
+                                            </g>
+                                        </svg> 
+                                        <span class="text-sm">1 bathroom</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <dl class="mb-8" id="pricing">
+                                <div class="container grid grid-cols-2 py-2 odd:bg-white">
+                                    <dt class="text-gray-700">Rent</dt>
+                                    <dd>$750 per month</dd>
+                                </div>
+                                <div class="container grid grid-cols-2 py-2 odd:bg-white">
+                                    <dt class="text-gray-700">Bills</dt>
+                                    <dd>Included</dd>
+                                </div>
+                                <div class="container grid grid-cols-2 py-2 odd:bg-white">
+                                    <dt class="text-gray-700">Security Deposit</dt>
+                                    <dd>$300</dd>
+                                </div>
+                            </dl>
+                            <dl class="mb-8" id="property-info">
+                                <div class="container grid grid-cols-2 py-2 odd:bg-white">
+                                    <dt class="text-gray-700">Property Type</dt>
+                                    <dd>House</dd>
+                                </div>
+                                <div class="container grid grid-cols-2 py-2 odd:bg-white">
+                                    <dt class="text-gray-700">Neighborhood</dt>
+                                    <dd>Southridge</dd>
+                                </div>
+                                <div class="container grid grid-cols-2 py-2 odd:bg-white">
+                                    <dt class="text-gray-700">Room Furnishing</dt>
+                                    <dd>Unfurnished</dd>
+                                </div>
+                                <div class="container grid grid-cols-2 py-2 odd:bg-white">
+                                    <dt class="text-gray-700">Preferred Gender</dt>
+                                    <dd>Females</dd>
+                                </div>
+                                <div class="container grid grid-cols-2 py-2 odd:bg-white">
+                                    <dt class="text-gray-700">Available On</dt>
+                                    <dd>Now</dd>
+                                </div>
+                                <div class="container grid grid-cols-2 py-2 odd:bg-white">
+                                    <dt class="text-gray-700">Stay Length</dt>
+                                    <dd>Minimum 6 months</dd>
+                                </div>
+                            </dl>
+                            <div class="mb-16 flex items-center gap-4" id="background-check">
+                                <svg aria-hidden="true" class="size-12 text-gray-600" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.718 10.35L20.88 8.872c-.29043-.2341-.441267-.600258-.4-.971l.255-2.345c.12677-1.14785-.700977-2.18113-1.84883-2.3079a2.0910006 2.0910006 0 00-.458174-.0000993l-2.348.252c-.370715.0410762-.736784-.109725-.971-.4l-1.478-1.837c-.77958-.900776-2.14178-.999025-3.04256-.219445a2.1569988 2.1569988 0 00-.219445.219445l-1.478 1.837v1e-7c-.2334.291366-.600096.442425-.971.4l-2.345-.252h2e-7c-1.14785-.12677-2.18113.700977-2.3079 1.84883a2.0910024 2.0910024 0 00-.0000993.458174l.255 2.345v2e-7c.0422305.370877-.108791.737482-.4.971l-1.84 1.479h1e-7c-.900776.723536-1.04446 2.0403-.320923 2.94108a2.0920526 2.0920526 0 00.320922.320923l1.838 1.478c.291052.233635.442037.60015.4.971l-.255 2.345v-1e-7c-.12677 1.14785.700977 2.18113 1.84883 2.3079a2.0910011 2.0910011 0 00.458174.0000993l2.346-.255c.370742-.0412675.7369.10957.971.4l1.48 1.841-1e-7-1e-7c.723536.900776 2.0403 1.04446 2.94108.320923a2.0920526 2.0920526 0 00.320923-.320922l1.478-1.838c.234216-.290275.600285-.441076.971-.4l2.345.255h-1e-7c1.14785.12677 2.18113-.700977 2.3079-1.84883a2.0910015 2.0910015 0 00.0000993-.458174l-.255-2.346c-.0424246-.370904.108634-.7376.4-.971l1.838-1.478c.900776-.723536 1.04446-2.0403.320922-2.94108a2.0920144 2.0920144 0 00-.320923-.320923zM12.4 15.048c-.60035.781944-1.72092.929156-2.50287.328806a1.7850614 1.7850614 0 01-.160134-.138805l-2.444-2.438c-.397252-.383679-.408255-1.01675-.0245763-1.414.383679-.397252 1.01675-.408255 1.414-.0245765a.9999107.9999107 0 01.0245764.0245764l2.251 2.251 3.909-5.211c.331371-.441828.958172-.531371 1.4-.2.441828.331371.531371.958172.2 1.4z" fill="currentColor"></path>
+                                </svg>
+                            <div>
+                                <div class="text-g">The owners will require background checks for this room</div>
+                            </div>
+                        </div>
+                        <div class="mb-16" id="about-room">
+                            <div class="mb-6 flex items-center justify-between">
+                            <h2 class="flex items-center gap-2 text-lg font-bold">
+                                <svg aria-hidden="true" class="text-pink h-4" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.863 23.271H1.5c-.690356 0-1.25-.559644-1.25-1.25s.559644-1.25 1.25-1.25h13.363-1e-7c.690356 0 1.25.559644 1.25 1.25s-.559644 1.25-1.25 1.25zM22.5 3.225h-21c-.690356 0-1.25-.559644-1.25-1.25S.809644.725 1.5.725h21-1e-7c.690356 0 1.25.559644 1.25 1.25s-.559644 1.25-1.25 1.25zM22.5 9.907h-21c-.690356 0-1.25-.559644-1.25-1.25s.559644-1.25 1.25-1.25h21-1e-7c.690356 0 1.25.559644 1.25 1.25s-.559644 1.25-1.25 1.25zM22.5 16.588h-21c-.690356 0-1.25-.559644-1.25-1.25s.559644-1.25 1.25-1.25h21c.690356 0 1.25.559644 1.25 1.25s-.559644 1.25-1.25 1.25h-2e-7z" fill="currentColor"></path>
+                                </svg>
+                                About the Room
+                            </h2>
+                        </div>
+                        <div class="prose prose-headings:text-pink prose-a:font-medium prose-a:text-teal prose-a:transition-all prose-a:underline prose-a:underline-offset-2 prose-a:decoration-teal-lighter prose-a:hover:decoration-teal break-words text-gray-800">
+                            <p>Large private unfurnished bedroom upstairs with a dedicated bathroom. Ceiling fan, high ceilings, modest walk in closet, plenty of space and comfort.</p>
+                            <p>Included is an additional semi-private common area used as a dedicated family room.. so you’ll have additional living space to hang out in.</p>
+                            <p>You’ll also enjoy access to Wifi, laundry, kitchen, and covered patio overlooking large backyard.</p>
+                            <p>The neighborhood is quiet, established, tree lined, and pleasant to walk through. It’s also adjacent to the area’s largest park with plenty of walking paths and nature trails.</p>
+                            <ul>
+                                <li>3.1 mi to University of North Texas</li>
+                                <li>3.4 mi to Texas Woman’s University</li>
+                                <li>2.6 mi to Medical City Denton</li>
+                                <li>2.6 mi to Texas Health Presbyterian Hospital</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-16" id="about-roomies">
+                        <div class="mb-6 flex items-center justify-between">
+                            <h2 class="flex items-center text-lg font-bold">
+                                <svg aria-hidden="true" class="text-pink mr-2 h-4" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <path d="M9.47487 1.02513c1.36684 1.36684 1.36684 3.58291 0 4.94975-1.36684 1.36684-3.58291 1.36684-4.94975 0-1.36684-1.36684-1.36684-3.58291 0-4.94975 1.36684-1.36684 3.58291-1.36684 4.94975 0" fill="currentColor" id="d"></path>
+                                        <path d="M1.5 17.5c0 .276142.223858.5.5.5h1.81c.129885.0000606.23809.0995736.249.229l.441 5.313c.0218837.25962.239461.458921.5.458h4c.260539.0009207.478116-.19838.5-.458l.443-5.313c.0108415-.128665.117883-.227907.247-.229H12c.276142 0 .5-.223858.5-.5V14c0-3.03757-2.46243-5.5-5.5-5.5S1.5 10.96243 1.5 14z" fill="currentColor" id="c"></path>
+                                        <path d="M14 14v3.5c0 .174.044.548.049.61l.453 5.432v1e-7c.0218208.258853.238229.457879.498.458h4c.260539.0009207.478116-.19838.5-.458l.443-5.313c.0108415-.128665.117883-.227906.247-.229H22c.276142 0 .5-.223858.5-.5v-3.5l2e-7-.0001315c.0051295-3.03259-2.44911-5.49515-5.4817-5.50028-1.48788-.0025167-2.91308.59887-3.94939 1.66651-.0785643.0803033-.0933346.203389-.036.3v-2e-7c.632964 1.07013.966958 2.29059.967092 3.53391z" fill="currentColor" id="a"></path>
+                                        <path d="M19.4749 1.02513c1.36684 1.36684 1.36684 3.58291 0 4.94975-1.36684 1.36684-3.58291 1.36684-4.94975 0-1.36684-1.36684-1.36684-3.58291 0-4.94975 1.36684-1.36684 3.58291-1.36684 4.94975 0" fill="currentColor" id="b"></path>
+                                    </defs>
+                                    <use xlink:href="#a"></use>
+                                    <use xlink:href="#b"></use>
+                                    <use xlink:href="#c"></use>
+                                    <use xlink:href="#d"></use>
+                                    <use xlink:href="#a"></use>
+                                    <use xlink:href="#b"></use>
+                                    <use xlink:href="#c"></use>
+                                    <use xlink:href="#d"></use>
+                                </svg>About the Owners
+                            </h2>
+                        </div>  
+                        <img alt="The owners" class="owners-photo" height="720" loading="lazy" src="images/owners.webp" width="720"/>
+                        <div class="prose prose-headings:text-pink prose-a:font-medium prose-a:text-teal prose-a:transition-all prose-a:underline prose-a:underline-offset-2 prose-a:decoration-teal-lighter prose-a:hover:decoration-teal break-words text-gray-800">
+                            <p>We’re an active couple with one teenage daughter who lives with us every other week so we're looking for a single occupant female roommate. We’re a quiet but active family heavily involved in extracurricular activities. We also board a dog or two fairly regularly and not all of them get along with other animals so we’re not accepting other animals.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <section class="contact-section" id="contact">
+                    <div class="fixed inset-x-0 bottom-0 z-20 border-t border-gray-200 bg-white py-3 sm:hidden" style="">
+                        <div class="container">
+                            <a class="btn btn-primary btn-block" href="#google-form-link" id="contact-bar-link">
+                                <svg aria-hidden="true" class="inline h-4" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.114 14.556c.489.487 1.28.487 1.768 0l9.686-9.686a.5.5 0 00-.281-.849A1.966 1.966 0 0022 4H2c-.097 0-.193.007-.289.021a.5.5 0 00-.281.849z" fill="currentColor"></path>
+                                    <path d="M23.888 5.832a.182.182 0 00-.2.039l-6.2 6.2a.251.251 0 000 .354l5.043 5.043a.75.75 0 11-1.06 1.061l-5.043-5.043a.25.25 0 00-.354 0l-2.129 2.129a2.75 2.75 0 01-3.888 0l-2.131-2.127a.251.251 0 00-.354 0l-5.043 5.043a.75.75 0 01-1.06-1.061l5.043-5.043a.251.251 0 000-.354l-6.2-6.2a.18.18 0 00-.2-.039A.182.182 0 000 6v12a2 2 0 002 2h20a2 2 0 002-2V6a.181.181 0 00-.112-.168z" fill="currentColor"></path>
+                                </svg>Schedule a Showing
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mb-4 border-y border-gray-200 bg-white py-6">
+                        <div class="mx-auto max-w-2xl px-4 py-8 text-center">
+                            <h2 class="mb-4 text-2xl font-bold">Interested in the room?</h2>
+                            <p class="mb-6">Schedule a showing or contact the owners using the short form below.</p>
+                            <a class="btn btn-primary btn-block btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSdcXgb41Ot1Ck9IDZQqfpHi9mouAzFEGatDwBZ-6Kg5vbpXXg/viewform?usp=header" id="google-form-link" rel="noopener noreferrer" target="_blank">Schedule a Showing / Contact Owners</a>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+            <footer id="site-footer">
+                <div class="mx-auto max-w-5xl px-4 py-6 text-center text-sm">© Room for Rent, Denton, TX</div>
+            </footer>
+        </div>
+    </body>
+</html>
